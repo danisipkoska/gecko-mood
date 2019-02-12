@@ -1,0 +1,137 @@
+#root {
+  width: 100%;
+}
+.myNavbar {
+  background-color: black;
+}
+.myLink {
+  color: white;
+}
+.myLink:hover {
+  color: #28a745;
+}
+
+.homeForm {
+  background-color: rgba(207, 216, 220, 1);
+  display: inline-block;
+  height: 800px;
+}
+.homeFormTest {
+  background-color: rgba(207, 216, 220, 1);
+  padding: 40px;
+}
+
+.myForm {
+  color: #28a745;
+  border: 2px solid #343a40;
+  transition: transform 0.5s;
+}
+.myForm:hover {
+  transform: scale(1.1);
+}
+.form-control:focus {
+  color: #28a745;
+  background-color: black !important;
+  border: 2px solid #28a745;
+}
+.customContainer {
+  margin: 0 auto;
+  width: 40%;
+  display: inline-block;
+  overflow: hidden;
+  padding: 40px;
+}
+
+.customContainerTest {
+  padding-top: 40px;
+  margin: 0 auto;
+  width: 80%;
+  background-color: black;
+  transition: transform 0.5s;
+}
+.customContainerTest:hover {
+  transform: scale(1.2);
+}
+.tableDiv {
+  display: inline-block;
+  width: 40%;
+  padding: 40px;
+}
+.mytable {
+  background-color: black;
+  color: #28a745;
+  margin-top: 100px;
+}
+.mytable thead th {
+  border: none;
+  vertical-align: none;
+}
+.training {
+  overflow: hidden;
+  height: 500px;
+  padding: 20px 10px 50px 50px;
+}
+
+#page-numbers {
+  list-style: none;
+  display: flex;
+  float: right;
+  color: #28a745;
+}
+.footer {
+  text-align: center;
+}
+.page-item.active .page-link {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+.page-link {
+  color: #28a745;
+  background-color: black;
+  border: 1px solid black;
+}
+.page-link:hover {
+  color: #28a745;
+  background-color: black;
+  border-color: black;
+}
+.page-link:focus {
+  box-shadow: none;
+}
+.number {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #28a745;
+  background-color: black;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-size: 22px;
+  font-weight: 900;
+  padding: 0 5px;
+  border: 1px solid black;
+}
+.number:hover {
+  color: white;
+  background-color: #28a745;
+  border: 1px solid #28a745;
+}
+
+.trainButtonDiv {
+  display: block;
+}
+.previous {
+  height: 50px;
+  width: 80px;
+  line-height: 50px;
+  text-align: center;
+  color: #28a745;
+  background-color: black;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 0 5px;
+  border: 1px solid black;
+}
